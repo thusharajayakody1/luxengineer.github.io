@@ -7,7 +7,7 @@ import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chaos Mesh',
+  title: 'Lux Engineer',
   tagline: 'A Powerful Chaos Engineering Platform for Kubernetes',
   favicon: '/img/favicon.ico',
 
