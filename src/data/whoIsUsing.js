@@ -1,36 +1,39 @@
 const whoisUsing = [
   {
-    name: 'APISIX',
-    img: 'img/logos/apisix.svg',
-    href: 'https://apisix.apache.org/',
+    name: 'AWS',
+    img: 'img/logos/tech-logos/icons8-aws.svg',
+    href: 'https://aws.amazon.com/',
     style: {
       height: '50%',
     },
   },
   {
-    name: 'Authzed',
-    img: 'img/logos/authzed.svg',
-    href: 'https://authzed.com/',
+    name: 'Azure',
+    img: 'img/logos/tech-logos/icons8-azure.svg',
+    href: 'https://azure.microsoft.com/',
   },
   {
-    name: 'Celo',
-    img: 'img/logos/celo.png',
-    href: 'https://celo.org/',
+    name: 'google cloud',
+    img: 'img/logos/tech-logos/icons8-google-cloud.svg',
+    href: 'https://cloud.google.com/',
   },
   {
-    name: 'China Everbright Bank',
-    img: 'img/logos/cebbank.png',
-    href: 'https://www.cebbank.com/',
+    name: 'Oracle Cloud',
+    img: 'img/logos/tech-logos/icons8-oracle-logo.svg',
+    href: 'https://www.oracle.com/cloud/',
   },
   {
-    name: 'Dailymotion',
-    img: 'img/logos/dailymotion.svg',
-    href: 'https://www.dailymotion.com/',
+    name: 'Kubernetes',
+    img: 'img/logos/kubernetes.svg',
+    href: 'https:kubernetes.io/',
+    style: {
+      height: '50%',
+    },
   },
   {
-    name: 'DataStax',
-    img: 'img/logos/datastax.svg',
-    href: 'https://www.datastax.com/',
+    name: 'Helm',
+    img: 'img/logos/tech-logos/helmsh.svg',
+    href: 'https:helm.sh/',
   },
   {
     name: 'Digital China',

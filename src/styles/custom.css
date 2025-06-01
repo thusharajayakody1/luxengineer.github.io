@@ -99,3 +99,17 @@ a.tw-btn {
   padding: 1rem;
   padding-top: 0;
 }
+
+.button-demo {
+  background-color: #007bff; /* Bootstrap blue */
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button-demo:hover {
+  background-color: #0056b3;
+}

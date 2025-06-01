@@ -26,7 +26,7 @@ import styles from './index.module.css'
 gsap.registerPlugin(ScrollTrigger)
 
 const description =
-  'Chaos Mesh brings various types of fault simulation to Kubernetes and has an enormous capability to orchestrate fault scenarios. It helps you conveniently simulate various abnormalities that might occur in reality during the development, testing, and production environments and find potential problems in the system.'
+  'We bring enterprise-grade cloud automation to smaller scale businesses—so you can focus on what you do best.'
 
 function Home() {
   const { siteConfig, i18n } = useDocusaurusContext()
@@ -61,7 +61,7 @@ function Home() {
   return (
     <Layout description={translate({ message: description, id: 'home.desc' })}>
       <Head>
-        <title>Chaos Mesh: {siteConfig.tagline}</title>
+        <title>Luxengineer.com: {siteConfig.tagline}</title>
       </Head>
       <main>
         <div className="hero tw-relative tw-h-[768px] tw-pt-0 tw-overflow-hidden">
@@ -78,11 +78,11 @@ function Home() {
                   {/* Due to the below texts are not simple strings, so we can't use <Translate /> here. */}
                   {i18n.currentLocale === 'en' && (
                     <>
-                      <span>Break</span>
+                      <span>Ditch</span>
                       <br />
-                      <span>Your System</span>
+                      <span>the </span>
                       <br />
-                      <span>Constructively</span>
+                      <span>Duct tape!</span>
                     </>
                   )}
                   {i18n.currentLocale === 'zh' && (
@@ -101,25 +101,23 @@ function Home() {
                     to="/docs/production-installation-using-helm"
                     className="tw-btn !tw-btn-primary hover:-tw-translate-y-[3px]"
                   >
-                    <Translate id="home.getstarted">Get Started →</Translate>
+                    <Translate id="home.getstarted">Talk to us →</Translate>
                   </Link>
                   <Link
                     to="https://github.com/chaos-mesh/chaos-mesh"
-                    className="tw-btn !tw-btn-neutral tw-gap-2 dark:tw-glass hover:-tw-translate-y-[3px]"
+                    className="tw-btn !tw-btn-neutral hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
-                    GitHub
+                    Our Partners
                   </Link>
                 </div>
               </div>
 
               <div className="lg:max-xl:tw-w-[500px] tw-p-6 lg:tw-p-3">
                 <h2 className="tw-inline-block tw-text-base lg:tw-text-lg tw-font-semibold tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
-                  <Translate id="home.tryitout">Try it out with the following command 👇</Translate>
+                  <Translate id="home.tryitout"> Get a Free Infrastructure Audit! 🙌 </Translate>
                 </h2>
-                <PickVersion className="!tw-mb-0">
-                  curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash
-                </PickVersion>
+                <PickVersion className="!tw-mb-0">Your business. Our expertise. Tailor-made solutions</PickVersion>
               </div>
             </div>
           </div>
@@ -128,7 +126,7 @@ function Home() {
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4 tw-text-center">
             <h2 className="tw-text-lg">
-              <Translate id="home.whoisusing">Users of Chaos Mesh</Translate>
+              <Translate id="home.whoisusing"> Expertise Domains </Translate>
             </h2>
             <div className="max-md:tw-overflow-x-auto dark:tw-invert dark:tw-saturate-0">
               <div className="row max-md:tw-w-[1280px]">

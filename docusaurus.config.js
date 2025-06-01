@@ -7,33 +7,39 @@ import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Lux Engineer',
-  tagline: 'A Powerful Chaos Engineering Platform for Kubernetes',
+  title: 'Luxengineer',
+  tagline: 'Your partner in engineering excellence',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://chaos-mesh.org',
+  url: 'https://luxengineer.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'chaos-mesh', // Usually your GitHub org/user name.
-  projectName: 'chaos-mesh.github.io', // Usually your repo name.
+  organizationName: 'luxengineer', // Usually your GitHub org/user name.
+  projectName: 'Luxengineer', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   trailingSlash: true,
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh'],
+    locales: ['en', 'fr', 'de', 'nl'],
     localeConfigs: {
       en: {
         label: 'English',
       },
-      zh: {
-        label: '简体中文',
+      fr: {
+        label: 'Français',
+      },
+      de: {
+        label: 'Deutsch',
+      },
+      nl: {
+        label: 'Nederlands',
       },
     },
   },
@@ -50,7 +56,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
+          editUrl: 'https://github.com/luxengineer/website/edit/master/',
           editLocalizedFiles: true,
         },
         blog: {
@@ -72,7 +78,7 @@ const config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    image: '/img/chaos-mesh-social-preview.png',
+    image: '/img/black_logo.svg',
     algolia: {
       appId: '3BY0S3HQX6',
       apiKey: '99bb3af44d57f0e8f6d7e019d7e2c2d7',
@@ -80,44 +86,23 @@ const config = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Chaos Mesh',
+      title: 'Luxengineer.com',
       logo: {
-        alt: 'Chaos Mesh',
-        src: 'img/logos/logo-mini.svg',
-        srcDark: 'img/logos/logo-mini-white.svg',
+        alt: 'Luxengieer',
+        src: 'img/logos/black_logo.svg',
+        srcDark: 'img/logos/black_logo.svg',
       },
       items: [
-        { to: 'docs', label: 'Documentation' },
+        { to: 'docs', label: 'Contact Us' },
         {
           to: 'blog',
           label: 'Blog',
         },
         {
-          href: 'https://community.cncf.io/chaos-mesh-community/',
-          label: 'Community Group',
-        },
-
-        {
-          type: 'docsVersionDropdown',
-          dropdownItemsAfter: [
-            {
-              type: 'html',
-              value: '<hr style="margin: .5em 0;" />',
-            },
-            { to: '/versions', label: 'All Versions' },
-            { to: '/supported-releases', label: 'Supported Releases' },
-          ],
+          href: '/',
+          label: 'Book a Demo',
           position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/chaos-mesh/chaos-mesh',
-          className: 'header-github-link',
-          'aria-label': 'GitHub',
-          position: 'right',
+          className: 'button-demo',
         },
       ],
     },
