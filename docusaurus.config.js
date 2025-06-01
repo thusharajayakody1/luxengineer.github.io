@@ -27,19 +27,10 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr', 'de', 'nl'],
+    locales: ['en'],
     localeConfigs: {
       en: {
         label: 'English',
-      },
-      fr: {
-        label: 'Français',
-      },
-      de: {
-        label: 'Deutsch',
-      },
-      nl: {
-        label: 'Nederlands',
       },
     },
   },
